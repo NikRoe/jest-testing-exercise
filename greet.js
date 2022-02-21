@@ -1,4 +1,9 @@
 export function greet(name) {
-  // ????
-  return `Hello, ${name}!`;
+  if (name === "Jan" || name === "Lara" || name === "CJ") {
+    return "Hello Coach!";
+  } else if (name) {
+    return `Hello ${name}!`;
+  } else {
+    return "Hello stranger!";
+  }
 }
